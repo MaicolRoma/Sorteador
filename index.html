@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="sorteios sorteios de numeros">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="assets/IMG/dados.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    
+    <title>Sorteios</title>
+</head>
+<body>
+    <main class="container-principal">
+       <section class="box-imagen">
+        <img src="./assets/IMG/logoSorteio.png" alt="imagen ilustrativa de sorteio"></section>
+
+    <section class="box-sorteio">
+         <h1 class="titulo-sorteio">Sortear Um Número</h1> 
+        <div class="box-labels">
+            <label for="numeroInicial" class="label">
+                    <input type="number" id="inputNumeroInicial" placeholder="Entre" name="numeroInicial" class="input">
+                </label>
+                <label for="numero2" class="label">
+                    <input type="number" id="inputNumero2" placeholder="E" name="numero2" class="input">
+                </label>
+        </div>
+        <button id="button-sortear" onclick="sortearNumeros()">Sortear</button>
+        <div class="box-dadoCartoon">
+            <img src="./assets/IMG/DadoCartoon.gif" alt="dado Girando" class="dadoCartoon">
+            <p id="numeroSorteado">
+                0
+            </p>
+        </div>
+    </section>
+    </main>
+    
+</body>
+<script src="./script.js"></script>
+</html>
