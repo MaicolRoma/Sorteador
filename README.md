@@ -25,6 +25,8 @@ especifico dado por el usuario atraves de inputs.
 - manejo del DOM, creación y uso de funciones con JavaScript
 - animaciones usando keyframes en CSS3
 
+## Link: https://maicolroma.github.io/Sorteador/
+
 ## ⚠️ Uso:
   > [!CAUTION]
 > Solo se debe ingresar números dentro de los Inputs, sino la aplicación no generará ningun número aleatorio y te mostrará un mensaje diciendote que solo se deben ingresar valores validos;
